@@ -23,5 +23,8 @@
     "client": "node start-client.js",
     "build": "cd client && yarn run build",
     "postinstall": "cd client/ && yarn install && yarn run build"
+  },
+  "engines": {
+    "node": "^14.15.0"
   }
 }
